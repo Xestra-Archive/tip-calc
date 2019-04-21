@@ -10,8 +10,8 @@ function calculator() {
     // founding the tip
     tipPercent /= 100;
     tipPercent *= bill;
-    var tipPercent = Number(tipPercent) / Number(numOfPeople)
-    document.getElementById("totalTip").innerHTML = tipPercent;
+    var tipPercentPerPerson = Number(tipPercent) / Number(numOfPeople)
+    document.getElementById("totalTip").innerHTML = tipPercentPerPerson;
 
     // founding the total 
     var total = Number(tipPercent) + Number(bill);
